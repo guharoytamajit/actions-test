@@ -33,4 +33,4 @@ jobs:
         run: |
           java -version
           mvn -version
-          echo "================= $key"
+          echo "================= ${#key}"
