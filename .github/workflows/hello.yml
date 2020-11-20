@@ -2,7 +2,7 @@
 
 name: CI
 env:
-  key: Hello World
+  key: ${{ secrets.MY_SECRET }}
 
 # Controls when the action will run. 
 on:
